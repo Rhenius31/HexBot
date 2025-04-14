@@ -58,12 +58,19 @@ ros2 service call /send_stop_command std_srvs/srv/Trigger
 If you want to see the camera output directly, deactivate the ROS YOLO and camera nodes, then run:
 
 ```bash
-cd ..
+cd 
 cd yolo/
 source ~/ros_env/bin/activate
 python yolo_detect.py --model=my_model_ncnn_model --source=usb0 --resolution=1280x720
 ```
 
+---
+
+## View the status of the Bot
+
+```bash
+screen /dev/ttyACM0 115200
+```
 ---
 
 ## Notes
