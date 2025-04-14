@@ -1,0 +1,177 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.149s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8e50c3e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e6c80b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e6c80b0>>, mixin_verb=('build',))
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/berry/systems_ws'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/line_following' with type 'ros.ament_python' and name 'line_following'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_color_detector) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_color_detector' with type 'ros.ament_python' and name 'yolo_color_detector'
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/berry/systems_ws/install
+[0.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'line_following' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'line_following' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/berry/systems_ws/build/line_following', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/berry/systems_ws/install/line_following', 'merge_install': False, 'path': '/home/berry/systems_ws/src/line_following', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'yolo_color_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_color_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/berry/systems_ws/build/yolo_color_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/berry/systems_ws/install/yolo_color_detector', 'merge_install': False, 'path': '/home/berry/systems_ws/src/yolo_color_detector', 'symlink_install': False, 'test_result_base': None}
+[0.343s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/berry/systems_ws/src/line_following' with build type 'ament_python'
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_following', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/line_following/share/line_following/hook/ament_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berry/systems_ws/install/line_following/share/line_following/hook/ament_prefix_path.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/line_following/share/line_following/hook/ament_prefix_path.sh'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/berry/systems_ws/src/yolo_color_detector' with build type 'ament_python'
+[0.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_color_detector', 'ament_prefix_path')
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/hook/ament_prefix_path.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/hook/ament_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/hook/ament_prefix_path.sh'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/berry/systems_ws/src/line_following'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.021s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/berry/systems_ws/src/yolo_color_detector'
+[1.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.021s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berry/systems_ws/src/yolo_color_detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/berry/systems_ws/build/yolo_color_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berry/systems_ws/install/yolo_color_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_color_detector build --build-base /home/berry/systems_ws/build/yolo_color_detector/build install --record /home/berry/systems_ws/build/yolo_color_detector/install.log --single-version-externally-managed install_data
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berry/systems_ws/src/line_following': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/berry/systems_ws/build/line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berry/systems_ws/install/line_following/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_following build --build-base /home/berry/systems_ws/build/line_following/build install --record /home/berry/systems_ws/build/line_following/install.log --single-version-externally-managed install_data
+[2.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berry/systems_ws/src/yolo_color_detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/berry/systems_ws/build/yolo_color_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berry/systems_ws/install/yolo_color_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_color_detector build --build-base /home/berry/systems_ws/build/yolo_color_detector/build install --record /home/berry/systems_ws/build/yolo_color_detector/install.log --single-version-externally-managed install_data
+[2.792s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector' for CMake module files
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector' for CMake config files
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector/lib'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector/bin'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector/lib/pkgconfig/yolo_color_detector.pc'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector/lib/python3.12/site-packages'
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_color_detector', 'pythonpath')
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/hook/pythonpath.ps1'
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/hook/pythonpath.dsv'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/hook/pythonpath.sh'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/yolo_color_detector/bin'
+[2.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_color_detector)
+[2.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/package.ps1'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/package.dsv'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/package.sh'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/package.bash'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/yolo_color_detector/share/yolo_color_detector/package.zsh'
+[2.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berry/systems_ws/install/yolo_color_detector/share/colcon-core/packages/yolo_color_detector)
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following' for CMake module files
+[2.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berry/systems_ws/src/line_following' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/berry/systems_ws/build/line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berry/systems_ws/install/line_following/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_following build --build-base /home/berry/systems_ws/build/line_following/build install --record /home/berry/systems_ws/build/line_following/install.log --single-version-externally-managed install_data
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following' for CMake config files
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following/lib'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following/bin'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following/lib/pkgconfig/line_following.pc'
+[2.815s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following/lib/python3.12/site-packages'
+[2.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_following', 'pythonpath')
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/line_following/share/line_following/hook/pythonpath.ps1'
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berry/systems_ws/install/line_following/share/line_following/hook/pythonpath.dsv'
+[2.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berry/systems_ws/install/line_following/share/line_following/hook/pythonpath.sh'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/berry/systems_ws/install/line_following/bin'
+[2.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_following)
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/line_following/share/line_following/package.ps1'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berry/systems_ws/install/line_following/share/line_following/package.dsv'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/line_following/share/line_following/package.sh'
+[2.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/line_following/share/line_following/package.bash'
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/berry/systems_ws/install/line_following/share/line_following/package.zsh'
+[2.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berry/systems_ws/install/line_following/share/colcon-core/packages/line_following)
+[2.824s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.825s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.825s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.826s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.833s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.852s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berry/systems_ws/install/local_setup.ps1'
+[2.854s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/berry/systems_ws/install/_local_setup_util_ps1.py'
+[2.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berry/systems_ws/install/setup.ps1'
+[2.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berry/systems_ws/install/local_setup.sh'
+[2.863s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/berry/systems_ws/install/_local_setup_util_sh.py'
+[2.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berry/systems_ws/install/setup.sh'
+[2.867s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berry/systems_ws/install/local_setup.bash'
+[2.868s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berry/systems_ws/install/setup.bash'
+[2.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berry/systems_ws/install/local_setup.zsh'
+[2.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berry/systems_ws/install/setup.zsh'

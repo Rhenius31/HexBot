@@ -1,0 +1,24 @@
+[1.634s] Invoking command in '/home/berry/systems_ws/src/line_following': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/berry/systems_ws/build/line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berry/systems_ws/install/line_following/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_following build --build-base /home/berry/systems_ws/build/line_following/build install --record /home/berry/systems_ws/build/line_following/install.log --single-version-externally-managed install_data
+[1.984s] running egg_info
+[2.008s] writing ../../build/line_following/line_following.egg-info/PKG-INFO
+[2.008s] writing dependency_links to ../../build/line_following/line_following.egg-info/dependency_links.txt
+[2.015s] writing entry points to ../../build/line_following/line_following.egg-info/entry_points.txt
+[2.016s] writing requirements to ../../build/line_following/line_following.egg-info/requires.txt
+[2.017s] writing top-level names to ../../build/line_following/line_following.egg-info/top_level.txt
+[2.074s] reading manifest file '../../build/line_following/line_following.egg-info/SOURCES.txt'
+[2.081s] writing manifest file '../../build/line_following/line_following.egg-info/SOURCES.txt'
+[2.081s] running build
+[2.082s] running build_py
+[2.082s] copying line_following/esp32_logger.py -> /home/berry/systems_ws/build/line_following/build/lib/line_following
+[2.082s] running install
+[2.093s] running install_lib
+[2.118s] copying /home/berry/systems_ws/build/line_following/build/lib/line_following/esp32_logger.py -> /home/berry/systems_ws/install/line_following/lib/python3.12/site-packages/line_following
+[2.118s] byte-compiling /home/berry/systems_ws/install/line_following/lib/python3.12/site-packages/line_following/esp32_logger.py to esp32_logger.cpython-312.pyc
+[2.120s] running install_data
+[2.120s] running install_egg_info
+[2.147s] removing '/home/berry/systems_ws/install/line_following/lib/python3.12/site-packages/line_following-0.0.0-py3.12.egg-info' (and everything under it)
+[2.147s] Copying ../../build/line_following/line_following.egg-info to /home/berry/systems_ws/install/line_following/lib/python3.12/site-packages/line_following-0.0.0-py3.12.egg-info
+[2.154s] running install_scripts
+[2.329s] Installing esp32_logger script to /home/berry/systems_ws/install/line_following/lib/line_following
+[2.329s] writing list of installed files to '/home/berry/systems_ws/build/line_following/install.log'
+[2.413s] Invoked command in '/home/berry/systems_ws/src/line_following' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/berry/systems_ws/build/line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berry/systems_ws/install/line_following/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_following build --build-base /home/berry/systems_ws/build/line_following/build install --record /home/berry/systems_ws/build/line_following/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_detect_ros = yolo_color_detector.yolo_detect_ros:main

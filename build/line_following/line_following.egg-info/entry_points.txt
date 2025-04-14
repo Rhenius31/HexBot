@@ -1,0 +1,3 @@
+[console_scripts]
+camera = line_following.camera:main
+esp32_controller = line_following.esp32_controller:main
