@@ -70,6 +70,7 @@ python yolo_detect.py --model=my_model_ncnn_model --source=usb0 --resolution=128
 
 - Make sure the USB camera is connected and accessible as `usb0`.
 - Replace `my_model_ncnn_model` with the actual path to your model if needed.
+- You may need to setup virtual environment before running the camera node to see live feed
 
 ---
 
